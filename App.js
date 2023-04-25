@@ -10,6 +10,7 @@
 
 import * as React from 'react';
 
+// For navigation purpose
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
@@ -63,7 +64,6 @@ const App = () => {
                 : 'ios-information-circle-outline';
                 return <Ionicons name='ios-person' size={24} color={focused ? "#1976D2" : "#8e8e93"} />;
             } 
-
             
           },
         })}>
